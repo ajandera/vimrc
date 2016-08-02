@@ -163,3 +163,8 @@ augroup Whitespace
     autocmd!
     autocmd BufEnter,WinEnter * call Whitespace()
 augroup END
+
+"selectiong to hold shift and arrows
+if has("gui_macvim")
+    let macvim_hig_shift_movement = 1
+endif
