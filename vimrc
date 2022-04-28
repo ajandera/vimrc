@@ -63,9 +63,12 @@ Plugin 'https://github.com/scrooloose/nerdtree.git'
 Plugin 'shawncplus/phpcomplete.vim'
 Plugin 'joonty/vdebug'
 Plugin 'https://github.com/scrooloose/syntastic.git'
-Plugin 'git://github.com/craigemery/vim-autotag.git'
+Bundle 'craigemery/vim-autotag'
 Bundle 'arnaud-lb/vim-php-namespace'
 Plugin '2072/PHP-Indenting-for-VIm'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'neoclide/coc.nvim', {'branch': 'release'}
+Plugin 'fatih/vim-go'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
